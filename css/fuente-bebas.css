@@ -3,16 +3,16 @@
     padding: 0;
 }
 div {
-    background-color: black;
+    background-color: rgb(24, 24, 24);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 1000vh;
+    height: 100vh;
 }
 span {
     font-family:'Bebas Neue' ;
     font-size: 15em;
-    color: red;
+    color: rgb(230, 3, 3);
 }
 /* bebas-neue-regular - latin */
 @font-face {
