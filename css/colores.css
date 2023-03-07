@@ -1,0 +1,17 @@
+div.rojo {
+    background-color: red;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    display: inline-block;
+}
+div.azul {
+    background-color: slateblue;
+    width: 250px;
+    height: 250px;
+}
+div.verde {
+    background-color: springgreen;
+    width: 250px;
+    height: 250px;
+}
