@@ -1,3 +1,20 @@
+.box-colore {
+    display: flex;
+    flex-direction: row;
+}
+.box-color {
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span {
+    color: beige;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 div.rojo {
     background-color: red;
     width: 250px;
