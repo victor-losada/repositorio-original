@@ -1,0 +1,23 @@
+.box-style {
+
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    
+}
+.box-1 {
+    border: 1px solid rgb(55, 79, 79);
+    background-color: aqua;
+}
+.box-2 {
+    border: 1px solid rgb(55, 79, 79);
+    background-color: azure;
+}
+.box-3 {
+    border: 1px solid rgb(55, 79, 79);
+    background-color: blueviolet;
+}
+.box-4 {
+    border: 1px solid rgb(55, 79, 79);
+    background-color: chartreuse;
+}

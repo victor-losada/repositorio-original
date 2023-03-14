@@ -11,24 +11,39 @@
     align-items: center;
 }
 span {
-    color: beige;
+    color: white;
     font-size: 1.5em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-div.rojo {
+.color-rojo {
     background-color: red;
-    width: 250px;
-    height: 250px;
-    margin: 20px;
     display: inline-block;
 }
-div.azul {
-    background-color: slateblue;
-    width: 250px;
-    height: 250px;
+.color-verde {
+    background-color: green;
+    display: inline-block;
 }
-div.verde {
-    background-color: springgreen;
-    width: 250px;
-    height: 250px;
+.color-violet {
+    background-color: violet;
+    display: inline-block;
+}
+.color-255-0-0 {
+    background-color: rgb(255, 0, 0);
+    display: inline-block;
+}
+.color-255-255-0 {
+    background-color: rgb(255, 255, 0);
+    display: inline-block;
+}
+.color-100-87-80 {
+    background-color: rgb(100, 87, 80);
+    display: inline-block;
+}
+.color-ff25a7 {
+    background-color: #ff25a7;
+    display: inline-block;
+}
+.color-ff8000 {
+    background-color: #ff8000;
+    display: inline-block;
 }
