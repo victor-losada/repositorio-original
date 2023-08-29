@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul {
+    background-color:rgb(112, 110, 103) ;
+    width: 100%;   
+    position: absolute;
+    list-style: none;
+   
+}
+nav a {
+    text-decoration: none;
+    color: rgb(253, 249, 249);
+    display: block;
+    padding: 0 2.5em;
+    font-size: 1.2rem;
+    text-align: center;
+}
+nav a:hover{
+    background-color: rgb(197, 183, 148);
+}
+nav > ul > li  {
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.2rem;
+}
+ul li {
+    position: relative;
+}
+nav li li {
+    max-height: 0;
+    overflow: hidden;
+   }
+nav li:hover > ul li {
+    visibility: visible;
+    max-height: 500px;
+    overflow: visible;
+    border: 1px solid rgba( 255, 255, 255); 
+    }
+nav ul ul ul {
+    left: 100%;
+    top: 0;
+
+}

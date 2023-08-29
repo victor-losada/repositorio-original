@@ -1,0 +1,39 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}.style-icon {
+    
+    font-size: 1.7em;
+    padding: 25px 30px;
+    
+}
+ul {
+   
+    border-bottom: 1px solid black;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+li {
+    display: inline-block;
+   
+    
+
+}
+.hola {
+    width: 100%;
+    background-color:#a780ff;
+    height: 250px;
+}
+.icon-style {
+    line-height: 1.2em;
+    font-family: sans-serif;
+    font-size: 1em;
+    padding: 25px 30px;
+    color: black;
+    display: inline-block;
+
+   
+    
+}

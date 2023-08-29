@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+ div{
+     background-color: rgb(38, 7, 237);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+ }
+ span{
+     font-family:'waltograp' ;
+     font-size:13em ;
+     color: rgb(240, 240, 243);
+ }
+ /* cinzel-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family:'waltograp';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/waltograph42.otf),
+         url(../fonts/waltographUI.ttf);
+}

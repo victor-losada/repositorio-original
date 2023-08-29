@@ -1,0 +1,51 @@
+.box-colores{
+    display:flex ;
+    flex-direction:row ;
+
+}
+
+body{
+    background: #83a4d4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.box-color{
+    width: 250px;
+    height: 150px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+span{
+    color: white;
+}
+.color-red{
+    background-color: red;
+}
+.color-blue{
+    background-color: blue;
+}
+.color-yellow{
+    background-color: yellow;
+}
+.color-255-0-0{
+    background-color: rgb(255, 0, 0);
+}
+.color-154-54-54{
+    background-color: rgb(154, 54, 54);
+}
+.color-58-0-223{
+    background-color: rgb(58, 0, 223);
+}
+.color123{
+    background-color: #0bdd3c;
+}
+.color321{
+    background-color: #cceb05;
+}
+.color543{
+    background-color: #eb1405;
+}
