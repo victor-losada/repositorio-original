@@ -17,7 +17,7 @@ let auto1 = new Automovil("Mazda 3", "2.5 Grand Touring",'imagenes/hola2.png', 9
 let auto2 = new Automovil("Mazda CX-30", "Grand Touring At", 'imagenes/hola3.jpg', 111000000, 2022, 14672, 'Engativa - Bogotá');
 let auto3 = new Automovil('Toyota Prado', '3.0 Tx-l', 'imagenes/hola4.png', 275000000, 2020, 72000, 'El Poblado-Medellín-Antioquia');
 let auto4 = new Automovil('Mercedes-benz', 'Clase C C200 1.5', 'imagenes/hola4.png', 211900000, 2022, 9300, 'Medellín-Antioquia');
-let auto5 = new Automovil('Mazda', '2 Sedan', 'imagenes/hola4.png', 48500000, 255, 548545, 'Pitalito-Hila');
+let auto5 = new Automovil('Mazda', '2 Sedan', 'imagenes/hola5.jpg', 48500000, 255, 548545, 'Pitalito-Hila');
 
 
 let autos = [auto1, auto2, auto3, auto4, auto5]
