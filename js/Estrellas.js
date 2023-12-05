@@ -26,6 +26,33 @@ btnGraficar.addEventListener("click", function(){
         boxEstrella4.setAttribute("class", "fa-solid fa-star");
         boxEstrella5.setAttribute("class", "fa-solid fa-star");
     }
+
+    else if (calificacion >= 1 && calificacion <= 1.5){
+        boxEstrella1.setAttribute("class", "fa-solid fa-star");
+        
+    }
+    else if (calificacion >= 2 && calificacion <= 2.5){
+        boxEstrella1.setAttribute("class", "fa-solid fa-star");
+        boxEstrella2.setAttribute("class", "fa-solid fa-star");
+    }
+    else if (calificacion >= 3 && calificacion <= 3.5){
+        boxEstrella1.setAttribute("class", "fa-solid fa-star");
+        boxEstrella2.setAttribute("class", "fa-solid fa-star");
+        boxEstrella3.setAttribute("class", "fa-solid fa-star");
+    }
+    else if (calificacion >= 4 && calificacion <= 4.5){
+        boxEstrella1.setAttribute("class", "fa-solid fa-star");
+        boxEstrella2.setAttribute("class", "fa-solid fa-star");
+        boxEstrella3.setAttribute("class", "fa-solid fa-star");
+        boxEstrella4.setAttribute("class", "fa-solid fa-star");
+    }
+    else {
+        boxEstrella1.setAttribute("class", "fa-solid fa-star");
+        boxEstrella2.setAttribute("class", "fa-solid fa-star");
+        boxEstrella3.setAttribute("class", "fa-solid fa-star");
+        boxEstrella4.setAttribute("class", "fa-solid fa-star");
+        boxEstrella5.setAttribute("class", "fa-solid fa-star"); 
+    }
     // let boxEstrella = document.createElement("i");
     // //es hijo de boxEstrella
     // boxEstrellas.appendChild(boxEstrella);
